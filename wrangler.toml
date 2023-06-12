@@ -1,0 +1,11 @@
+name = "router-test"
+type = "javascript"
+workers_dev = false
+
+[build]
+command = "npm install && npm run build"
+watch_dir = "src"
+
+[build.upload]
+format = "service-worker"
+main = "src/index.js"
