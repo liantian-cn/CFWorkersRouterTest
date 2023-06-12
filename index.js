@@ -79,7 +79,6 @@ function httpStatusText(status) {
 	case 508: return 'Loop Detected';
 	case 510: return 'Not Extended';
 	case 511: return 'Network Authentication Required';
-    default: return '';
+    default: return 'Status';
   }
 }
-
